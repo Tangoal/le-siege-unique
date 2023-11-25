@@ -14,33 +14,33 @@ export default function Contact() {
         <div class="contact-section">
           <div class="contact-container">
             <div className='contact-text'>
-            <h2>Contact</h2>
-            <div class="contact-info">
-              <div class="icon-text">
-              <i className="fab fa-square-facebook"></i>
-                <p>Florian Mocquet</p>
+              <h2>Contact</h2>
+              <div class="contact-info">
+                <div class="icon-text">
+                  <i class="fa-solid fa-circle-user"></i>
+                  <p>Florian Mocquet</p>
+                </div>
+                <div class="icon-text">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <p>Montaigu</p>
+                </div>
+                <div class="icon-text">
+                  <i class="fa-solid fa-phone"></i>
+                  <p>07 64 43 54 42</p>
+                </div>
+                <div class="icon-text">
+                  <i class="fa-solid fa-envelope"></i>
+                  <p>lesiegeunique@gmail.com</p>
+                </div>
               </div>
-              <div class="icon-text">
-              <i className="fab fa-square-facebook"></i>
-                <p>Montaigu</p>
-              </div>
-              <div class="icon-text">
-                <i className="fab fa-square-facebook"></i>
-                <p>07 64 43 54 42</p>
-              </div>
-              <div class="icon-text">
-              <i className="fab fa-square-facebook"></i>
-                <p>lesiegeunique@gmail.com</p>
-              </div>
-            </div>
-            <ContactForm />
+              <ContactForm />
             </div>
             <div className='contact-img'>
-            <img src={atelier} alt="Atelier" />
-            </div>
+              <img src={atelier} alt="Atelier" />
             </div>
           </div>
         </div>
+      </div>
     </section>
   )
 }

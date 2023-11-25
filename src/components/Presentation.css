@@ -15,10 +15,10 @@
 
 }
 
-.presentation-container p{
+.presentation-text {
     text-align: justify;
     hyphens: auto;
-    margin-right: 50px;
+    margin: 20px;
 }
 
 .presentation-container img {

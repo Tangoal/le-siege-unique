@@ -2,9 +2,9 @@
 
 /* // Changer icone pour font awesome */
 
-.contact-bg{
-    background-color:#303B38;
-    color:#EDE9DE;
+.contact-bg {
+    background-color: #EDE9DE;
+    color: #303B38;
 }
 
 .contact-section {
@@ -14,14 +14,24 @@
 }
 
 .contact-container {
-    display:flex;
+    display: flex;
 }
 
 .contact-container>* {
-    flex:1;
+    flex: 1;
 }
 
-.contact-img img{
-    max-width:400px;
+.contact-img img {
+    max-width: 400px;
     object-fit: contain;
+    vertical-align: middle;
+}
+
+.icon-text {
+    display: flex;
+    margin: 20px;
+}
+
+.icon-text i {
+    margin: auto 0;
 }
