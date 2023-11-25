@@ -2,7 +2,7 @@ import React, { useState, useCallback } from "react";
 import { render } from "react-dom";
 import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
-import { photos } from "./photos/Sellerie";
+import { photos } from "./SelleriePhotos";
 
 export default function GallerySellerie() {
     const [currentImage, setCurrentImage] = useState(0);
