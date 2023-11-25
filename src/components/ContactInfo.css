@@ -1,3 +1,27 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css');
 
 /* // Changer icone pour font awesome */
+
+.contact-bg{
+    background-color:#303B38;
+    color:#EDE9DE;
+}
+
+.contact-section {
+    max-width: 1000px;
+    margin: auto;
+    padding: 64px 16px;
+}
+
+.contact-container {
+    display:flex;
+}
+
+.contact-container>* {
+    flex:1;
+}
+
+.contact-img img{
+    max-width:400px;
+    object-fit: contain;
+}

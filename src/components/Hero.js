@@ -1,9 +1,16 @@
 import React from 'react'
+import './Hero.css'
+import fond from ".//../assets/img/Fond.jpg"
 
 function Hero() {
   return (
-    <div>Hero</div>
-  )
+    <section id="hero">
+      <div className="hero-banner">
+            <div className='fond'><img src={fond} alt="Fond" /></div>
+    </div>
+    </section>
+  
+    )
 }
 
 export default Hero

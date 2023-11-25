@@ -1,0 +1,27 @@
+.presentation-bg {
+    background-color: #EDE9DE;
+    color: #1E312D;
+}
+
+.presentation-section {
+    max-width: 1000px;
+    margin: auto;
+    padding: 64px 16px;
+}
+
+.presentation-container {
+    display: flex;
+    margin: 10px 30px;
+
+}
+
+.presentation-container p{
+    text-align: justify;
+    hyphens: auto;
+    margin-right: 50px;
+}
+
+.presentation-container img {
+    max-width: 400px;
+    object-fit: contain;
+}

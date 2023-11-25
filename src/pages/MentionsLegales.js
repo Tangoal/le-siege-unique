@@ -1,8 +1,13 @@
 import React from 'react'
+import Legalite from '../components/Legalite'
+import Contact from '../components/ContactInfo'
 
 function MentionsLegales() {
   return (
-    <div>MentionsLegales</div>
+    <>
+    <Legalite />
+    <Contact />
+    </>
   )
 }
 

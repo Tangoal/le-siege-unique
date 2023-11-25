@@ -1,0 +1,13 @@
+body {
+    /* font-family: 'Proxima'; */
+    background-color: #EDE9DE;
+    color: #1E312D;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #1E312D;
+    /* Couleur de lien par défaut */
+    text-decoration: none;
+}

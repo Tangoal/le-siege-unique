@@ -1,0 +1,37 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css');
+
+footer{
+    background-color: #EDE9DE;
+
+    padding-top: 20px; /* Marge en haut */
+    padding-bottom: 5px; /* Marge en bas */
+    
+}
+
+.footer-container {
+    text-align: center; /* Centrer le contenu du footer horizontalement */
+    display :flex;
+}
+
+.footer-container>*{
+    flex: 1;
+}
+
+.footer-logo img {
+    max-width: 300px;
+    object-fit: contain;
+}
+
+.footer-legal, .footer-social {
+    margin:auto;
+}
+
+.footer-social i {
+    color: #1E312D;
+    margin: 0 25px; /* Espace entre les icônes */
+    font-size: 300%; /* Augmenter la taille des icônes */
+    transition: color 2s;/* Durée de l'animation et propriétés affectées */
+}
+.footer-social i:hover {
+    color: #000000; /* Nouvelle couleur de texte au survol */
+}

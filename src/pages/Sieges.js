@@ -1,9 +1,10 @@
 import React from 'react'
-import GallerySieges from '../components/GallerySieges'
+import Gallery from "react-photo-gallery";
+import { photos } from "../components/photos/Sellerie";
 
 function Sieges() {
     return (
-        <GallerySieges />
+        <Gallery photos={photos} />
     )
 }
 

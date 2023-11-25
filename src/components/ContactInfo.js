@@ -4,6 +4,7 @@ import avatar from ".//../assets/img/avatar5.png"
 import location from ".//../assets/img/broche-de-localisation (2).png"
 import phone from ".//../assets/img/appel.png"
 import mail from ".//../assets/img/mail.png"
+import atelier from ".//../assets/img/Contact.JPG"
 import ContactForm from './ContactForm'
 
 export default function Contact() {
@@ -11,30 +12,35 @@ export default function Contact() {
     <section id="contact">
       <div class="contact-bg">
         <div class="contact-section">
-          <h2>Contact</h2>
           <div class="contact-container">
+            <div className='contact-text'>
+            <h2>Contact</h2>
             <div class="contact-info">
               <div class="icon-text">
-                <img src={avatar} alt="Fondateur" />
-                <p>Fabien DURAND</p>
+              <i className="fab fa-square-facebook"></i>
+                <p>Florian Mocquet</p>
               </div>
               <div class="icon-text">
-                <img src={location} alt="Localisation" />
-                <p>Vendée et départements limitrophes</p>
+              <i className="fab fa-square-facebook"></i>
+                <p>Montaigu</p>
               </div>
               <div class="icon-text">
-                <img src={phone} alt="Téléphone" />
-                <p>06 72 12 84 40</p>
+                <i className="fab fa-square-facebook"></i>
+                <p>07 64 43 54 42</p>
               </div>
               <div class="icon-text">
-                <img src={mail} alt="Mail" />
-                <p>contact@sefosa85.fr</p>
+              <i className="fab fa-square-facebook"></i>
+                <p>lesiegeunique@gmail.com</p>
               </div>
             </div>
             <ContactForm />
+            </div>
+            <div className='contact-img'>
+            <img src={atelier} alt="Atelier" />
+            </div>
+            </div>
           </div>
         </div>
-      </div>
     </section>
   )
 }
