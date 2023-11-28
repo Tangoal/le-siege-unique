@@ -38,6 +38,7 @@ export default function Contact() {
               <img src={atelier} alt="Atelier" />
             </div>
           </div>
+          <ContactForm />
         </div>
       </div>
     </section>
