@@ -1,6 +1,7 @@
-.navbar{
-    background-color: #303B38;
+.navbar {
+    background-color: #022521;
     display: flex;
+    justify-content: center;
 }
 
 .navbar-logo img {
@@ -8,8 +9,8 @@
     object-fit: contain;
 }
 
-.navbar-links{
-    margin:auto 25px;
+.navbar-links {
+    margin: auto 25px;
 }
 
 .navbar-links ul {
@@ -21,7 +22,7 @@
 
 .navbar-links li {
     display: inline;
-    margin: 0 10px;
+    margin: 0 20px;
 }
 
 .navbar-links ul li a {
@@ -35,14 +36,3 @@
     font-weight: bold;
     text-decoration: underline;
 }
-
-.navbar-social i {
-    color: #EDE9DE;
-    margin: 0 25px; /* Espace entre les icônes */
-    font-size: 300%; /* Augmenter la taille des icônes */
-    transition: color 2s;/* Durée de l'animation et propriétés affectées */
-}
-.navbar-social i:hover {
-    color: #ffffff; /* Nouvelle couleur de texte au survol */
-}
-

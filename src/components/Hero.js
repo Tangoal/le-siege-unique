@@ -6,11 +6,11 @@ function Hero() {
   return (
     <section id="hero">
       <div className="hero-banner">
-            <div className='fond'><img src={fond} alt="Fond" /></div>
-    </div>
+        <div className='fond'><img src={fond} loading="lazy" alt="Fond" /></div>
+      </div>
     </section>
-  
-    )
+
+  )
 }
 
 export default Hero

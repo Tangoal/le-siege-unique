@@ -1,5 +1,10 @@
+@font-face {
+    font-family: 'Krona_One';
+    src: url("./assets/fonts/KronaOne-Regular.ttf");
+}
+
 body {
-    /* font-family: 'Proxima'; */
+    font-family: 'Krona_One';
     background-color: #EDE9DE;
     color: #1E312D;
     margin: 0;

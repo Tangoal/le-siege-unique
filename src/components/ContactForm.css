@@ -17,7 +17,7 @@ textarea {
 
 .contact-form-bg {
     padding: 10px;
-    background-color: #303B38;
+    background-color: #022521;
     color: #EDE9DE;
 }
 
@@ -25,7 +25,7 @@ textarea {
     height: 22px;
     border: none;
     border-bottom: 1px solid #EDE9DE;
-    background-color: #303B38;
+    background-color: #022521;
 }
 
 .contact-form input:focus,
@@ -34,7 +34,7 @@ textarea {
 }
 
 .contact-form textarea {
-    background-color: #303B38;
+    background-color: #022521;
     resize: none;
     height: 140px;
     border: none;
@@ -44,7 +44,7 @@ textarea {
 
 .button {
     background-color: #EDE9DE;
-    color: #303B38;
+    color: #022521;
     font-weight: bold;
     padding: 8px 16px;
     border: none;
