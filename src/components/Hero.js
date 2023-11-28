@@ -1,12 +1,12 @@
 import React from 'react'
 import './Hero.css'
-import fond from ".//../assets/img/Fond.jpg"
+import fond from ".//../assets/img/Fond2.jpg"
 
 function Hero() {
   return (
     <section id="hero">
       <div className="hero-banner">
-        <div className='fond'><img src={fond} loading="lazy" alt="Fond" /></div>
+        <img src={fond} loading="lazy" alt="Fond" />
       </div>
     </section>
 

@@ -8,12 +8,14 @@ import Contact from "./pages/Contact";
 import MentionsLegales from "./pages/MentionsLegales";
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
+import Hero from './components/Hero'
 
 function App() {
   return (
     <>
       <Router>
         <Navbar />
+        <Hero />
         <Routes>
           <Route path='/' element={<Home />}></Route>
           <Route path='/sieges' element={<Sieges />}></Route>
@@ -21,6 +23,7 @@ function App() {
           <Route path='/contact' element={<Contact />}></Route>
           <Route path='/mentions-legales' element={<MentionsLegales />}></Route>
         </Routes>
+        <Hero />
         <Footer />
       </Router >
     </>

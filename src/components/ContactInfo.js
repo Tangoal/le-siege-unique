@@ -1,9 +1,5 @@
 import React from 'react'
 import './ContactInfo.css'
-import avatar from ".//../assets/img/avatar5.png"
-import location from ".//../assets/img/broche-de-localisation (2).png"
-import phone from ".//../assets/img/appel.png"
-import mail from ".//../assets/img/mail.png"
 import atelier from ".//../assets/img/Contact.JPG"
 import ContactForm from './ContactForm'
 
@@ -22,7 +18,11 @@ export default function Contact() {
                 </div>
                 <div class="icon-text">
                   <i class="fa-solid fa-location-dot"></i>
-                  <p>Montaigu</p>
+                  <p> 168 rue Moulin Gros, 85600 MONTAIGU</p>
+                </div>
+                <div class="icon-text">
+                  <i class="fa-solid fa-clock"></i>
+                  <p> Ouvert du lundi au vendredi</p>
                 </div>
                 <div class="icon-text">
                   <i class="fa-solid fa-phone"></i>
@@ -33,7 +33,6 @@ export default function Contact() {
                   <p>lesiegeunique@gmail.com</p>
                 </div>
               </div>
-              <ContactForm />
             </div>
             <div className='contact-img'>
               <img src={atelier} alt="Atelier" />

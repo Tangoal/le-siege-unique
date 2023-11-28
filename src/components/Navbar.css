@@ -1,11 +1,12 @@
 .navbar {
+    position: sticky;
     background-color: #022521;
     display: flex;
     justify-content: center;
 }
 
 .navbar-logo img {
-    max-width: 200px;
+    max-width: 250px;
     object-fit: contain;
 }
 
@@ -28,11 +29,11 @@
 .navbar-links ul li a {
     color: #EDE9DE;
     font-weight: normal;
-    transition: text-decoration 1s, font-weight 1s;
+    letter-spacing: 1px;
+    transition: font-weight 0.5s;
     /* Durée de l'animation et propriétés affectées */
 }
 
 .navbar-links ul li a:hover {
     font-weight: bold;
-    text-decoration: underline;
 }

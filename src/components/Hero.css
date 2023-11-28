@@ -1,12 +1,4 @@
-.hero-bg {
-    background-color: #0F1513;
-}
-
-.hero-content {
-    padding: 15px 25px;
-}
-
-.fond img {
+.hero-banner img {
     max-width: 100%;
-    height: auto;
+    object-fit: cover;
 }

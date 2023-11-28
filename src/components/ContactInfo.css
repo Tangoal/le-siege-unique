@@ -35,3 +35,7 @@
 .icon-text i {
     margin: auto 0;
 }
+
+.icon-text p {
+    margin: 1em;
+}
