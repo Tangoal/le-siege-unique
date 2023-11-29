@@ -16,3 +16,45 @@ a {
     /* Couleur de lien par défaut */
     text-decoration: none;
 }
+
+h1,
+h2,
+h3 {
+    text-align: center;
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .presentation-container,
+    .formations-container,
+    .contact-container,
+    .footer-container {
+        flex-direction: column;
+    }
+
+    .presentation-text p {
+        margin-right: 0 !important;
+        margin-bottom: 30px;
+    }
+
+    .presentation-container {
+        align-items: center;
+    }
+
+    .contact-form,
+    .contact-img,    
+    .footer-legal,
+    .footer-social {
+        margin: 20px auto !important;
+    }
+
+    h1 {
+        font-size: 130%;
+    }
+
+    .footer-legal,
+    .footer-social
+    {
+
+    }
+}

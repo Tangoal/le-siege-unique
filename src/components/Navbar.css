@@ -1,5 +1,4 @@
 .navbar {
-    position: sticky;
     background-color: #022521;
     display: flex;
     justify-content: center;
@@ -10,30 +9,51 @@
     object-fit: contain;
 }
 
-.navbar-links {
+.navbar-links-web {
     margin: auto 25px;
 }
 
-.navbar-links ul {
+.navbar-links-web ul {
     list-style: none;
-    margin-block-start: 0;
-    margin-block-end: 0;
     padding-inline-start: 0;
 }
 
-.navbar-links li {
+.navbar-links-web li {
     display: inline;
     margin: 0 20px;
 }
 
-.navbar-links ul li a {
+.navbar-links-web ul li a {
     color: #EDE9DE;
     font-weight: normal;
     letter-spacing: 1px;
-    transition: font-weight 0.5s;
-    /* Durée de l'animation et propriétés affectées */
 }
 
-.navbar-links ul li a:hover {
-    font-weight: bold;
+.navbar-links-mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar-links-web {
+        display: none;
+    }
+
+    .navbar-links-mobile {
+        display: flex;
+    }
+
+    .navbar-links-mobile ul {
+        list-style: none;
+        padding-inline-start: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .navbar-links-mobile ul li a {
+        color: #EDE9DE;
+        font-weight: normal;
+        letter-spacing: 1px;
+    }
+
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import GallerySellerie from '../components/GallerySellerie'
+import GallerySellerie from '../components/gallery/GallerySellerie'
 
 function Sellerie() {
     return (

@@ -1,0 +1,14 @@
+.gallery-bg {
+    background-color: #EDE9DE;
+    color: #022521;
+}
+
+.gallery-section {
+    max-width: 1000px;
+    margin: auto;
+    padding: 32px;
+}
+
+.gallery-content {
+    margin: 40px;
+}

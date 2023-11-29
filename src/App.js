@@ -9,6 +9,7 @@ import MentionsLegales from "./pages/MentionsLegales";
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Hero from './components/Hero'
+import ScrollToTop from './components/ScrollToTop'
 
 function App() {
   return (
@@ -25,7 +26,9 @@ function App() {
         </Routes>
         <Hero />
         <Footer />
+        <ScrollToTop />
       </Router >
+      
     </>
   );
 }

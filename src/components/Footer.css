@@ -42,11 +42,4 @@ footer {
     /* Espace entre les icônes */
     font-size: 300%;
     /* Augmenter la taille des icônes */
-    transition: color 2s;
-    /* Durée de l'animation et propriétés affectées */
-}
-
-.footer-social i:hover {
-    color: #000000;
-    /* Nouvelle couleur de texte au survol */
 }
