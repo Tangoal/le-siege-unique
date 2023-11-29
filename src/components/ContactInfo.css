@@ -21,7 +21,7 @@
 }
 
 .contact-img img {
-    max-width: 350px;
+    max-width: 400px;
     object-fit: contain;
 }
 
@@ -51,6 +51,16 @@ form div {
     margin: 20px 20px;
 }
 
+.contact-container-form {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.contact-container-form>* {
+    flex: 1;
+}
+
 input,
 textarea,
 input::placeholder,
@@ -74,7 +84,6 @@ textarea::placeholder {
 
 .contact-form textarea {
     resize: none;
-    width: 400px;
     height: 200px;
     border: none;
     border-bottom: 1px solid #022521;

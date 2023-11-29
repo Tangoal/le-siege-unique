@@ -23,11 +23,11 @@ h3 {
     text-align: center;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 850px) {
 
     .presentation-container,
     .formations-container,
-    .contact-container,
+    .contact-container-form,
     .footer-container {
         flex-direction: column;
     }
@@ -41,20 +41,40 @@ h3 {
         align-items: center;
     }
 
-    .contact-form,
-    .contact-img,    
+    .contact-container-form,
+    .presentation-container {
+        margin-bottom: 0 !important;
+    }
+
     .footer-legal,
     .footer-social {
         margin: 20px auto !important;
+    }
+
+    .contact-form {
+        margin: 20px !important;
     }
 
     h1 {
         font-size: 130%;
     }
 
-    .footer-legal,
-    .footer-social
-    {
+    .presentation-text p,
+    .contact-info p {
+        font-size: small !important;
+    }
 
+    .contact-img img {
+        max-width: 300px !important;
+        margin-bottom: 0 !important;
+    }
+
+    footer {
+        padding-top: 0 !important;
+        padding-bottom: 25px !important;
+    }
+
+    .icon-text i {
+        font-size: 110% !important;
     }
 }

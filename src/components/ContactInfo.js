@@ -53,7 +53,7 @@ export default function Contact() {
             </div>
           </div>
           <h3>N'hésitez pas à me contacter !</h3>
-          <div class="contact-container">
+          <div class="contact-container-form">
             <div class="contact-form">
               <form action="https://formsubmit.co/lesiegeunique@gmail.com" method="POST">
                 <div><input type="text" id="nom" name="nom" placeholder="Nom*" required="" /></div>
