@@ -1,3 +1,5 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css');
+
 @font-face {
     font-family: 'Krona_One';
     src: url("./assets/fonts/KronaOne-Regular.ttf");
@@ -5,15 +7,13 @@
 
 body {
     font-family: 'Krona_One';
+    font-size: 0.8rem;
     background-color: #EDE9DE;
-    color: #1E312D;
-    margin: 0;
+    color: #022521;
     padding: 0;
 }
 
 a {
-    color: #1E312D;
-    /* Couleur de lien par défaut */
     text-decoration: none;
 }
 
@@ -21,60 +21,39 @@ h1,
 h2,
 h3 {
     text-align: center;
+    margin: 1rem 0;
 }
 
-@media only screen and (max-width: 850px) {
+p {
+    margin: 1.5rem 0;
+    text-align: justify;
+    hyphens: auto;
+}
 
-    .presentation-container,
-    .formations-container,
-    .contact-container-form,
-    .footer-container {
+.section-bg {
+    background-color: #EDE9DE;
+    color: #022521;
+}
+
+.section {
+    max-width: 1000px;
+    margin: auto;
+    padding: 2rem;
+}
+
+.container {
+    display: flex;
+}
+
+/* Responsivness */
+@media only screen and (max-width: 768px) {
+
+    .container {
         flex-direction: column;
+        align-items: center
     }
 
-    .presentation-text p {
-        margin-right: 0 !important;
-        margin-bottom: 30px;
-    }
-
-    .presentation-container {
-        align-items: center;
-    }
-
-    .contact-container-form,
-    .presentation-container {
-        margin-bottom: 0 !important;
-    }
-
-    .footer-legal,
-    .footer-social {
-        margin: 20px auto !important;
-    }
-
-    .contact-form {
-        margin: 20px !important;
-    }
-
-    h1 {
-        font-size: 130%;
-    }
-
-    .presentation-text p,
-    .contact-info p {
-        font-size: small !important;
-    }
-
-    .contact-img img {
-        max-width: 300px !important;
-        margin-bottom: 0 !important;
-    }
-
-    footer {
-        padding-top: 0 !important;
-        padding-bottom: 25px !important;
-    }
-
-    .icon-text i {
-        font-size: 110% !important;
+    p {
+        font-size: 0.75rem;
     }
 }

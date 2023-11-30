@@ -1,31 +1,18 @@
-.presentation-bg {
-    background-color: #EDE9DE;
-    color: #1E312D;
-}
-
-.presentation-section {
-    max-width: 1000px;
+.presentation-img {
     margin: auto;
-    padding: 32px;
 }
 
-.presentation-container {
-    display: flex;
-    margin: 40px 0;
-
+.presentation-img img {
+    max-width: 290px;
 }
 
 .presentation-text {
-    text-align: justify;
-    hyphens: auto;
-    margin: auto 40px;
-    font-size: 95%;
-    letter-spacing: 0px;
-    line-height: 150%;
+    margin :auto;
+    margin-right: 3.5rem;
 }
 
-.presentation-container img {
-    max-width: 300px;
-    object-fit: contain;
-    margin: auto 50px;
+@media only screen and (max-width: 768px) {
+    .presentation-text {
+        margin-right: 0;
+    }
 }
