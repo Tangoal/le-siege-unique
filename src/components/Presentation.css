@@ -8,11 +8,4 @@
 
 .presentation-text {
     margin :auto;
-    margin-right: 3.5rem;
-}
-
-@media only screen and (max-width: 768px) {
-    .presentation-text {
-        margin-right: 0;
-    }
 }

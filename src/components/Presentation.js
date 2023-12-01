@@ -11,7 +11,8 @@ export default function Presentation() {
           <div class="container">
             <div class="presentation-text">
               <p>Tapissier d'ameublement situé à Montaigu, entre Clisson et La-Roche-sur-Yon, Florian MOCQUET vous accueille dans son atelier showroom du lundi au vendredi.</p>
-              <p>Le Siège Unique vous invite à découvrir et apprécier le fait main. Spécialisé dans la tapisserie d'ameublement, la sellerie automobile et moto, le Siège Unique vous accompagne dans vos projets sur mesure. Vous souhaitez restaurer, remplacer ou personnaliser vos revêtements usés&nbsp;? Florian s'immisce dans votre univers pour répondre à vos attentes.</p>
+              <p>Le Siège Unique vous invite à découvrir et apprécier le fait main. Spécialisé dans la tapisserie d'ameublement, la sellerie automobile et moto, le Siège Unique vous accompagne dans vos projets sur mesure.</p>
+              <p>Vous souhaitez restaurer, remplacer ou personnaliser vos revêtements usés&nbsp;? Florian s'immisce dans votre univers pour répondre à vos attentes.</p>
               <p>N'hésitez pas à suivre l'actualité du Siège Unique sur Facebook et Instagram&nbsp;! </p>
             </div>
             <div class="presentation-img">

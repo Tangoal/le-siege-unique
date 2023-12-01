@@ -9,7 +9,7 @@ export default function GallerySellerie() {
                 <div className="section-bg">
                     <div className="section">
                         <h2>Sellerie</h2>
-                        <div className="gallery-content">
+                        <div>
                             <p>Travailler une sellerie d’origine ou créer une sellerie à votre image, vous hésitez&nbsp;? Florian habille votre auto ou moto avec des tissus, simili ou cuirs haut de gamme, garants de durabilité.</p>
                             <GalleryLightBox photos={photos} />
                         </div>

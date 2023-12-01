@@ -12,11 +12,11 @@ export default function Navbar() {
 
     return (
         <div className={`navbar ${isMenuOpen ? 'open' : ''}`}>
-            <div className='navbar-logo'><img src={logo} loading="lazy" alt="Logo" /></div>
-            <div className="menu-icon" onClick={toggleMenu}>
-                <div className={`bar ${isMenuOpen ? 'bar1-open' : ''}`}></div>
-                <div className={`bar ${isMenuOpen ? 'bar2-open' : ''}`}></div>
-                <div className={`bar ${isMenuOpen ? 'bar3-open' : ''}`}></div>
+            <div className='navbar-logo'><NavLink to='/'><img src={logo} loading="lazy" alt="Logo" /></NavLink></div>
+            <div className={`menu-icon ${isMenuOpen ? 'open' : ''}`} onClick={toggleMenu}>
+                <div className={`bar bar1`}></div>
+                <div className={`bar bar2`}></div>
+                <div className={`bar bar3`}></div>
             </div>
             <nav className={`navbar-links ${isMenuOpen ? 'open' : ''}`}>
                 <ul>

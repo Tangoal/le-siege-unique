@@ -23,7 +23,6 @@
     color: #EDE9DE;
 }
 
-/* A améliorer */
 .active li {
     position: relative;
 }
@@ -31,7 +30,7 @@
 .active li::after {
     content: "";
     position: absolute;
-    width: 50%;
+    width: 30%;
     height: 2px;
     background-color: #EDE9DE;
     bottom: -4px;
@@ -45,6 +44,7 @@
     background: #022521;
     cursor: pointer;
     height: 1.7rem;
+    position: relative;
 }
 
 .bar {
@@ -52,6 +52,11 @@
     height: 0.2rem;
     background-color: #EDE9DE;
     border-radius: 4px;
+    transition: 0.5s;
+}
+
+.menu-icon.open .bar:nth-child(2) {
+    transform: translate(-0.5rem, 0);
 }
 
 /* Responsivness */
@@ -82,6 +87,7 @@
         display: block;
         top: 120px;
         margin: 0;
+        border-bottom-left-radius: 1.6rem;
     }
 
     .navbar-links.open ul {
