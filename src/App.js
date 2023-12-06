@@ -11,7 +11,7 @@ import Contact from "./pages/Contact";
 import MentionsLegales from "./pages/MentionsLegales";
 
 import Navbar from './components/Navbar'
-import Hero from './components/Banner'
+import Banner from './components/Banner'
 import Footer from './components/Footer'
 import ScrollToTop from './components/ScrollToTop'
 
@@ -20,7 +20,7 @@ function App() {
     <>
       <Router>
         <Navbar />
-        <Hero />
+        <Banner />
         <Routes>
           <Route path='/' element={<Home />}></Route>
           <Route path='/sieges' element={<Sieges />}></Route>
@@ -29,7 +29,7 @@ function App() {
           <Route path='/contact' element={<Contact />}></Route>
           <Route path='/mentions-legales' element={<MentionsLegales />}></Route>
         </Routes>
-        <Hero />
+        <Banner />
         <Footer />
         <ScrollToTop />
       </Router >

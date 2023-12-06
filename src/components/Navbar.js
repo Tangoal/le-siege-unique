@@ -12,7 +12,7 @@ export default function Navbar() {
 
     return (
         <div className={`navbar ${isMenuOpen ? 'open' : ''}`}>
-            <div className='navbar-logo'><NavLink to='/'><img src={logo} loading="lazy" alt="Logo" /></NavLink></div>
+            <div className='navbar-logo'><NavLink to='/'><img src={logo} alt="Logo" /></NavLink></div>
             <div className={`menu-icon ${isMenuOpen ? 'open' : ''}`} onClick={toggleMenu}>
                 <div className={`bar bar1`}></div>
                 <div className={`bar bar2`}></div>

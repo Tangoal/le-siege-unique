@@ -1,10 +1,10 @@
 import React from 'react'
-import BoutiqueContenu from '../components/BoutiqueContenu'
+import GalleryBoutique from '../components/gallery/GalleryBoutique'
 
 function Boutique() {
     return (
         <>
-            <BoutiqueContenu />
+            <GalleryBoutique />
         </>
     )
 }

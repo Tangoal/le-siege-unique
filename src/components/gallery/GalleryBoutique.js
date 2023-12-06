@@ -1,16 +1,16 @@
 import React from "react";
 import GalleryLightBox from "./GalleryLightBox";
-import { photos } from "./PhotosSellerie";
+import { photos } from "./PhotosBoutique";
 
-export default function GallerySellerie() {
+export default function GalleryBoutique() {
     return (
         <div>
             <section id="gallery">
                 <div className="section-bg">
                     <div className="section">
-                        <h2>Sellerie</h2>
+                        <h2>Boutique</h2>
                         <div>
-                            <p>Travailler une sellerie d’origine ou créer une sellerie à votre image, vous hésitez&nbsp;? Florian habille votre auto ou moto avec des tissus, simili ou cuirs haut de gamme, garants de durabilité.</p>
+                            <p>Venez y découvrir les nombreux revêtements de grands éditeurs pour dorer vos intérieurs.</p>
                             <div className="gallery"><GalleryLightBox photos={photos} /></div>
                         </div>
                     </div>

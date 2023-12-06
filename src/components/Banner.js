@@ -2,7 +2,7 @@ import React from 'react'
 import './Banner.css'
 import banner from ".//../assets/img/banner.jpg"
 
-function Hero() {
+function Banner() {
   return (
     <section id="banner">
       <div className="banner">
@@ -12,4 +12,4 @@ function Hero() {
   )
 }
 
-export default Hero
+export default Banner

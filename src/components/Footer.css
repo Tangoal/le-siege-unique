@@ -16,6 +16,7 @@ footer {
 }
 
 .footer-logo img {
+    display: block;
     max-width: 220px;
     margin: auto;
 }
