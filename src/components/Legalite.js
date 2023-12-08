@@ -11,7 +11,7 @@ export default function Legalite() {
                     <p>Nom du site : Le Siège Unique</p>
                     <p>Adresse du site : https://www.lesiegeunique.com</p>
                     <p>Propriétaire :</p>
-                    <p>EI : MOCQUET Florian – SIRET : XXX - TVA : XXX</p>
+                    <p>EI : MOCQUET Florian – SIRET : 94952890500019 - TVA : FR46949528905</p>
                     <p>lesiegeunique@gmail.com – 07 64 43 54 42</p>
                     <p>Responsable de la publication :</p>
                     <p>MOCQUET Florian – lesiegeunique@gmail.com – 07 64 43 54 42</p>
