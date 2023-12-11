@@ -38,6 +38,7 @@ export default function ContactInfo() {
                                 </div>
                             </form>
                         </div>
+                        
                     </div>
                 </div>
             </div>

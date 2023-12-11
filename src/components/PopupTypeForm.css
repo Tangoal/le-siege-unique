@@ -1,0 +1,25 @@
+.button {
+    background-color: #022521;
+    color: #EDE9DE;
+    padding: 0.5rem 1rem;
+    border: solid #022521;
+    border-radius: 80px;
+    cursor: pointer;
+    transition: all 1s ease-out;
+    width: 300px;
+    font-size: 1rem;
+    margin: 2.5rem auto;
+    display: block;
+}
+
+.button:hover {
+    background-color: #EDE9DE;
+    color: #022521;
+}
+
+@media only screen and (max-width: 768px) {
+    .button {
+        font-size: 0.85rem;
+        width: 240px;
+    }
+}

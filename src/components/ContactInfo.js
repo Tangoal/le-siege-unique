@@ -1,5 +1,6 @@
 import React from 'react'
 import './ContactInfo.css'
+import PopupTypeForm from '../components/PopupTypeForm'
 
 export default function ContactInfo() {
   return (
@@ -33,6 +34,7 @@ export default function ContactInfo() {
               </div>
             </div>
           </div>
+          <PopupTypeForm />
         </div>
       </div>
     </section>

@@ -1,10 +1,13 @@
 import { PopupButton } from '@typeform/embed-react'
+import './PopupTypeForm.css';
 
 function PopupTypeForm() {
   return (
-    <PopupButton id="<CyBZPM1U>" style={{ fontSize: 20 }} className="my-button">
-      click to open form in popup
+    <div className='container-typeform'>
+    <PopupButton id="CyBZPM1U" className="button">
+      Demander un devis
     </PopupButton>
+    </div>
   )
 }
 

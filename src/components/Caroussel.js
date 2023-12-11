@@ -12,7 +12,6 @@ import car8 from ".//../assets/img/gallery/caroussel/car8.jpeg"
 
 function Caroussel() {
     return (
-        <section id="caroussel">
                     <div class="container-caroussel">
                         <div class="caroussel">
                             <img src={car1} alt="Caroussel 1" />
@@ -26,7 +25,6 @@ function Caroussel() {
                             <img src={car1} alt="Caroussel 1" />
                         </div>
                     </div>
-        </section>
     )
 }
 

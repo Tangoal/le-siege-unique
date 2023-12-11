@@ -1,7 +1,7 @@
 import React from 'react'
 import './Presentation.css'
 import Caroussel from '../components/Caroussel'
-import profile_pic from ".//../assets/img/atelier2.jpg"
+import PopupTypeForm from './PopupTypeForm'
 
 export default function Presentation() {
   return (
@@ -16,9 +16,7 @@ export default function Presentation() {
               <p>Vous souhaitez restaurer, remplacer ou personnaliser vos revêtements usés&nbsp;? Florian s'immisce dans votre univers pour répondre à vos attentes.</p>
               <p>N'hésitez pas à suivre l'actualité du Siège Unique sur Facebook et Instagram&nbsp;! </p>
             </div>
-            {/* <div class="presentation-img">
-              <img src={profile_pic} alt="Florian Mocquet" />
-            </div> */}
+            <PopupTypeForm/>
             <Caroussel />
           </div>
         </div>
