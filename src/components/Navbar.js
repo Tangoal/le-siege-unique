@@ -20,11 +20,11 @@ export default function Navbar() {
             </div>
             <nav className={`navbar-links ${isMenuOpen ? 'open' : ''}`}>
                 <ul>
-                    <NavLink to='/' onClick={toggleMenu}><li>Accueil</li></NavLink>
-                    <NavLink to='/sieges' onClick={toggleMenu}><li>Sièges</li></NavLink>
-                    <NavLink to='/sellerie' onClick={toggleMenu}><li>Sellerie</li></NavLink>
-                    <NavLink to='/boutique' onClick={toggleMenu}><li>Boutique</li></NavLink>
-                    <NavLink to='/contact' onClick={toggleMenu}><li>Contact</li></NavLink>
+                <li><NavLink to='/' onClick={toggleMenu}>Accueil</NavLink></li>
+                <li><NavLink to='/sieges' onClick={toggleMenu}>Sièges</NavLink></li>
+                <li><NavLink to='/sellerie' onClick={toggleMenu}>Sellerie</NavLink></li>
+                <li><NavLink to='/boutique' onClick={toggleMenu}>Boutique</NavLink></li>
+                <li><NavLink to='/contact' onClick={toggleMenu}>Contact</NavLink></li>
                 </ul>
             </nav>
         </div>
