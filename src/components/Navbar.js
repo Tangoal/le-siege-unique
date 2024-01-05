@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useLocation } from 'react-router-dom';
 import './Navbar.css';
 import logo from "../assets/img/logo-navbar.png";
 
 export default function Navbar() {
     const [isMenuOpen, setMenuOpen] = useState(false);
+    const { pathname } = useLocation();
 
     const toggleMenu = () => {
         setMenuOpen(!isMenuOpen);
@@ -20,11 +21,11 @@ export default function Navbar() {
             </div>
             <nav className={`navbar-links ${isMenuOpen ? 'open' : ''}`}>
                 <ul>
-                <li><NavLink to='/' onClick={toggleMenu}>Accueil</NavLink></li>
-                <li><NavLink to='/sieges' onClick={toggleMenu}>Sièges</NavLink></li>
-                <li><NavLink to='/sellerie' onClick={toggleMenu}>Sellerie</NavLink></li>
-                <li><NavLink to='/boutique' onClick={toggleMenu}>Boutique</NavLink></li>
-                <li><NavLink to='/contact' onClick={toggleMenu}>Contact</NavLink></li>
+                    <li className={pathname === '/' ? 'active' : ''}><NavLink to='/' onClick={toggleMenu}>Accueil</NavLink></li>
+                    <li className={pathname === '/sieges' ? 'active' : ''}><NavLink to='/sieges' onClick={toggleMenu}>Sièges</NavLink></li>
+                    <li className={pathname === '/sellerie' ? 'active' : ''}><NavLink to='/sellerie' onClick={toggleMenu}>Sellerie</NavLink></li>
+                    <li className={pathname === '/boutique' ? 'active' : ''}><NavLink to='/boutique' onClick={toggleMenu}>Boutique</NavLink></li>
+                    <li className={pathname === '/contact' ? 'active' : ''}><NavLink to='/contact' onClick={toggleMenu}>Contact</NavLink></li>
                 </ul>
             </nav>
         </div>

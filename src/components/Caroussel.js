@@ -12,19 +12,19 @@ import car8 from ".//../assets/img/gallery/caroussel/car8.jpeg"
 
 function Caroussel() {
     return (
-                    <div class="container-caroussel">
-                        <div class="caroussel">
-                            <img src={car1} alt="Caroussel 1" />
-                            <img src={car2} alt="Caroussel 2" />
-                            <img src={car3} alt="Caroussel 3" />
-                            <img src={car4} alt="Caroussel 4" />
-                            <img src={car5} alt="Caroussel 5" />
-                            <img src={car6} alt="Caroussel 6" />
-                            <img src={car7} alt="Caroussel 7" />
-                            <img src={car8} alt="Caroussel 8" />
-                            <img src={car1} alt="Caroussel 1" />
-                        </div>
-                    </div>
+        <div class="container-caroussel">
+            <div class="caroussel">
+                <img src={car1} alt="Caroussel 1" />
+                <img src={car2} alt="Caroussel 2" loading="lazy" />
+                <img src={car3} alt="Caroussel 3" loading="lazy" />
+                <img src={car4} alt="Caroussel 4" loading="lazy" />
+                <img src={car5} alt="Caroussel 5" loading="lazy" />
+                <img src={car6} alt="Caroussel 6" loading="lazy" />
+                <img src={car7} alt="Caroussel 7" loading="lazy" />
+                <img src={car8} alt="Caroussel 8" loading="lazy" />
+                <img src={car1} alt="Caroussel 1" loading="lazy" />
+            </div>
+        </div>
     )
 }
 

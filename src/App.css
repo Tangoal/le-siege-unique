@@ -3,6 +3,7 @@
 @font-face {
     font-family: 'Krona_One';
     src: url("./assets/fonts/KronaOne-Regular.ttf");
+    font-display: swap;
 }
 
 body {
