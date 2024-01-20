@@ -1,13 +1,13 @@
 import React from 'react'
 import './Caroussel.css'
-import car1 from ".//../assets/img/gallery/caroussel/car1.jpeg"
-import car2 from ".//../assets/img/gallery/caroussel/car2.jpeg"
-import car3 from ".//../assets/img/gallery/caroussel/car3.jpeg"
-import car4 from ".//../assets/img/gallery/caroussel/car4.jpeg"
-import car5 from ".//../assets/img/gallery/caroussel/car5.jpeg"
-import car6 from ".//../assets/img/gallery/caroussel/car6.jpeg"
-import car7 from ".//../assets/img/gallery/caroussel/car7.jpeg"
-import car8 from ".//../assets/img/gallery/caroussel/car8.jpeg"
+import car1 from ".//../assets/img/gallery/caroussel/car1.webp"
+import car2 from ".//../assets/img/gallery/caroussel/car2.webp"
+import car3 from ".//../assets/img/gallery/caroussel/car3.webp"
+import car4 from ".//../assets/img/gallery/caroussel/car4.webp"
+import car5 from ".//../assets/img/gallery/caroussel/car5.webp"
+import car6 from ".//../assets/img/gallery/caroussel/car6.webp"
+import car7 from ".//../assets/img/gallery/caroussel/car7.webp"
+import car8 from ".//../assets/img/gallery/caroussel/car8.webp"
 
 
 function Caroussel() {
@@ -15,7 +15,7 @@ function Caroussel() {
         <div class="container-caroussel">
             <div class="caroussel">
                 <img src={car1} alt="Caroussel 1" />
-                <img src={car2} alt="Caroussel 2" loading="lazy" />
+                <img src={car2} alt="Caroussel 2" />
                 <img src={car3} alt="Caroussel 3" loading="lazy" />
                 <img src={car4} alt="Caroussel 4" loading="lazy" />
                 <img src={car5} alt="Caroussel 5" loading="lazy" />
