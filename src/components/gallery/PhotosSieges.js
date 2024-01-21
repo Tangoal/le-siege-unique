@@ -1,9 +1,9 @@
-import siege1 from "../.././assets/img/gallery/sieges/siege1.jpeg"
-import siege2 from "../.././assets/img/gallery/sieges/siege2.jpeg"
-import siege3 from "../.././assets/img/gallery/sieges/siege3.jpeg"
-import siege4 from "../.././assets/img/gallery/sieges/siege4.jpeg"
-import siege5 from "../.././assets/img/gallery/sieges/siege5.jpeg"
-import siege6 from "../.././assets/img/gallery/sieges/siege6.jpeg"
+import siege1 from "../.././assets/img/gallery/sieges/siege1.webp"
+import siege2 from "../.././assets/img/gallery/sieges/siege2.webp"
+import siege3 from "../.././assets/img/gallery/sieges/siege3.webp"
+import siege4 from "../.././assets/img/gallery/sieges/siege4.webp"
+import siege5 from "../.././assets/img/gallery/sieges/siege5.webp"
+import siege6 from "../.././assets/img/gallery/sieges/siege6.webp"
 
 export const photos = [
   {

@@ -9,7 +9,7 @@ export default function Footer() {
             <div className='footer-section'>
                 <div className='footer-container'>
                     <div className='footer-logo'>
-                        <img src={logo} loading="lazy" alt="Logo" />
+                        <img src={logo} fetchpriority="low" loading="lazy" alt="Logo" />
                     </div>
                     <div className="footer-legal">
                         <p><Link to="/mentions-legales" title="Mentions Légales">Mentions Légales</Link></p>

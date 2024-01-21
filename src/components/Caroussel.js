@@ -14,15 +14,15 @@ function Caroussel() {
     return (
         <div class="container-caroussel">
             <div class="caroussel">
-                <img src={car1} alt="Caroussel 1" />
+                <img src={car1} fetchpriority="high" alt="Caroussel 1" />
                 <img src={car2} alt="Caroussel 2" />
                 <img src={car3} alt="Caroussel 3" loading="lazy" />
-                <img src={car4} alt="Caroussel 4" loading="lazy" />
-                <img src={car5} alt="Caroussel 5" loading="lazy" />
-                <img src={car6} alt="Caroussel 6" loading="lazy" />
-                <img src={car7} alt="Caroussel 7" loading="lazy" />
-                <img src={car8} alt="Caroussel 8" loading="lazy" />
-                <img src={car1} alt="Caroussel 1" loading="lazy" />
+                <img src={car4} fetchpriority="low" alt="Caroussel 4" loading="lazy" />
+                <img src={car5} fetchpriority="low" alt="Caroussel 5" loading="lazy" />
+                <img src={car6} fetchpriority="low" alt="Caroussel 6" loading="lazy" />
+                <img src={car7} fetchpriority="low" alt="Caroussel 7" loading="lazy" />
+                <img src={car8} fetchpriority="low" alt="Caroussel 8" loading="lazy" />
+                <img src={car1} fetchpriority="low" alt="Caroussel 1" loading="lazy" />
             </div>
         </div>
     )

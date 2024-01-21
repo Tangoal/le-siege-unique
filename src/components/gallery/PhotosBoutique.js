@@ -1,12 +1,12 @@
-import bout1 from "../.././assets/img/gallery/boutique/bout1.jpeg"
-import bout2 from "../.././assets/img/gallery/boutique/bout2.jpeg"
-import bout3 from "../.././assets/img/gallery/boutique/bout3.jpeg"
-import bout4 from "../.././assets/img/gallery/boutique/bout4.jpeg"
-import bout5 from "../.././assets/img/gallery/boutique/bout5.jpeg"
-import bout6 from "../.././assets/img/gallery/boutique/bout6.jpeg"
-import bout7 from "../.././assets/img/gallery/boutique/bout7.jpeg"
-import bout8 from "../.././assets/img/gallery/boutique/bout8.jpeg"
-import bout9 from "../.././assets/img/gallery/boutique/bout9.jpeg"
+import bout1 from "../.././assets/img/gallery/boutique/bout1.webp"
+import bout2 from "../.././assets/img/gallery/boutique/bout2.webp"
+import bout3 from "../.././assets/img/gallery/boutique/bout3.webp"
+import bout4 from "../.././assets/img/gallery/boutique/bout4.webp"
+import bout5 from "../.././assets/img/gallery/boutique/bout5.webp"
+import bout6 from "../.././assets/img/gallery/boutique/bout6.webp"
+import bout7 from "../.././assets/img/gallery/boutique/bout7.webp"
+import bout8 from "../.././assets/img/gallery/boutique/bout8.webp"
+import bout9 from "../.././assets/img/gallery/boutique/bout9.webp"
 
 export const photos = [
   {

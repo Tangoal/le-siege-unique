@@ -1,9 +1,9 @@
-import sell1 from "../.././assets/img/gallery/sellerie/sell1.jpeg"
-import sell2 from "../.././assets/img/gallery/sellerie/sell2.jpeg"
-import sell3 from "../.././assets/img/gallery/sellerie/sell3.jpeg"
-import sell4 from "../.././assets/img/gallery/sellerie/sell4.jpeg"
-import sell5 from "../.././assets/img/gallery/sellerie/sell5.jpeg"
-import sell6 from "../.././assets/img/gallery/sellerie/sell6.jpeg"
+import sell1 from "../.././assets/img/gallery/sellerie/sell1.webp"
+import sell2 from "../.././assets/img/gallery/sellerie/sell2.webp"
+import sell3 from "../.././assets/img/gallery/sellerie/sell3.webp"
+import sell4 from "../.././assets/img/gallery/sellerie/sell4.webp"
+import sell5 from "../.././assets/img/gallery/sellerie/sell5.webp"
+import sell6 from "../.././assets/img/gallery/sellerie/sell6.webp"
 
 export const photos = [
   {
