@@ -7,7 +7,7 @@
 
 .caroussel {
     display: flex;
-    animation: defilement 50s infinite ease-in-out;
+    animation: defilement 40s infinite ease-in-out;
 }
 
 .caroussel img {
