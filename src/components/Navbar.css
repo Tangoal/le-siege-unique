@@ -5,6 +5,7 @@
     position: sticky;
     /* Fait en sorte que l'élément reste fixe en haut */
     top: 0;
+    z-index: 9999;
     /* Définit la position collante en haut de la page */
 }
 
@@ -72,7 +73,6 @@
 @media only screen and (max-width: 1200px) {
     .navbar {
         justify-content: space-between;
-        z-index: 1000;
         /* Ajustez la valeur selon vos besoins */
     }
 
