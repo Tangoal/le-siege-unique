@@ -6,7 +6,7 @@ export default function ContactInfo() {
   return (
     <section id="contact-info">
       <div class="section-bg">
-        <div class="section">
+        <div class="section-reverse">
           <h2>Contact</h2>
           <div class="container">
             <div className='contact-text'>
@@ -32,9 +32,8 @@ export default function ContactInfo() {
                   <p>lesiegeunique@gmail.com</p>
                 </div>
               </div>
-            </div>
+            </div>  
           </div>
-          <PopupTypeForm />
         </div>
       </div>
     </section>

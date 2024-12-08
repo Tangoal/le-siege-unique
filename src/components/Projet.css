@@ -1,0 +1,32 @@
+/* Conteneur Flexbox principal */
+.flex-container {
+    display: flex;
+    /* Active le mode flexbox */
+    flex-wrap: wrap;
+    /* Permet aux enfants de s'enrouler sur plusieurs lignes */
+    justify-content: space-between;
+    /* Distribution uniforme avec de l'espace entre les éléments */
+    gap: 20px;
+}
+
+.flex-item {
+    background-color: #022521;
+    color: #EDE9DE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 48%;
+    padding-top: 48%; /* Technique pour créer un carré */
+    border-radius: 8px;
+    font-size: 1rem;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+
+.flex-item > * {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }

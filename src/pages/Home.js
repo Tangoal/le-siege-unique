@@ -1,14 +1,18 @@
 import React from 'react'
 import Presentation from '../components/Presentation'
 import ContactInfo from '../components/ContactInfo'
-import Banner from '../components/Banner'
+import Caroussel from '../components/Caroussel'
+import Projet from '../components/Projet'
 
 
 
 function Home() {
     return (
         <>
+            <Caroussel/>
+            <Projet />
             <Presentation />
+            <ContactInfo />
         </>
     )
 }

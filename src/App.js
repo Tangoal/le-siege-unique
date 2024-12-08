@@ -5,9 +5,10 @@ import './ResetCSS.css';
 
 import Home from "./pages/Home";
 import Sieges from "./pages/Sieges";
-import Sellerie from "./pages/Sellerie";
-import Boutique from "./pages/Boutique";
-import Contact from "./pages/Contact";
+import Banquettes from "./pages/Banquettes";
+import SellerieAuto from "./pages/SellerieAuto";
+import SellerieMoto from "./pages/SellerieMoto";
+import Decoration from "./pages/Decoration";
 import MentionsLegales from "./pages/MentionsLegales";
 
 import Navbar from './components/Navbar'
@@ -20,16 +21,16 @@ function App() {
     <>
       <Router>
         <Navbar />
-        <Banner />
+        {/*<Banner />*/}
         <Routes>
           <Route path='/' element={<Home />}></Route>
           <Route path='/sieges' element={<Sieges />}></Route>
-          <Route path='/sellerie' element={<Sellerie />}></Route>
-          <Route path='/boutique' element={<Boutique />}></Route>
-          <Route path='/contact' element={<Contact />}></Route>
-          <Route path='/mentions-legales' element={<MentionsLegales />}></Route>
+          <Route path='/banquettes' element={<Banquettes />}></Route>
+          <Route path='/sellerie-auto' element={<SellerieAuto />}></Route>
+          <Route path='/sellerie-moto' element={<SellerieMoto />}></Route>
+          <Route path='/decoration' element={<Decoration />}></Route>
         </Routes>
-        <Banner />
+        {/*<Banner />*/}
         <Footer />
         <ScrollToTop />
       </Router >

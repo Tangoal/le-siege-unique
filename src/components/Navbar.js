@@ -22,10 +22,11 @@ export default function Navbar() {
             <nav className={`navbar-links ${isMenuOpen ? 'open' : ''}`}>
                 <ul>
                     <li className={pathname === '/' ? 'active' : ''}><NavLink to='/' onClick={toggleMenu}>Accueil</NavLink></li>
-                    <li className={pathname === '/sieges' ? 'active' : ''}><NavLink to='/sieges' onClick={toggleMenu}>Sièges</NavLink></li>
-                    <li className={pathname === '/sellerie' ? 'active' : ''}><NavLink to='/sellerie' onClick={toggleMenu}>Sellerie</NavLink></li>
-                    <li className={pathname === '/boutique' ? 'active' : ''}><NavLink to='/boutique' onClick={toggleMenu}>Boutique</NavLink></li>
-                    <li className={pathname === '/contact' ? 'active' : ''}><NavLink to='/contact' onClick={toggleMenu}>Contact</NavLink></li>
+                    <li className={pathname === '/sieges' ? 'active' : ''}><NavLink to='/sieges' onClick={toggleMenu}>Sièges X Ameublement</NavLink></li>
+                    <li className={pathname === '/banquettes' ? 'active' : ''}><NavLink to='/banquettes' onClick={toggleMenu}>Banquettes</NavLink></li>
+                    <li className={pathname === '/sellerie-auto' ? 'active' : ''}><NavLink to='/sellerie-auto' onClick={toggleMenu}>Sellerie automobile</NavLink></li>
+                    <li className={pathname === '/sellerie-moto' ? 'active' : ''}><NavLink to='/sellerie-moto' onClick={toggleMenu}>Sellerie moto</NavLink></li>
+                    <li className={pathname === '/decoration' ? 'active' : ''}><NavLink to='/decoration' onClick={toggleMenu}>Décoration</NavLink></li>
                 </ul>
             </nav>
         </div>

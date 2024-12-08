@@ -2,10 +2,17 @@
     background-color: #022521;
     display: flex;
     justify-content: center;
+    position: sticky;
+    /* Fait en sorte que l'élément reste fixe en haut */
+    top: 0;
+    /* Définit la position collante en haut de la page */
 }
 
 .navbar-logo img {
-    max-width: 170px;
+    width: 120px;
+    height: auto;
+    image-rendering: auto;
+    /* Ajuste la qualité selon vos besoins */
 }
 
 .navbar-links {
@@ -18,20 +25,21 @@
 
 .navbar-links li {
     display: inline;
-    letter-spacing: 0.04rem;
-    margin: 1rem;
+
 }
 
 .navbar-links li a {
     color: #EDE9DE;
     position: relative;
+    letter-spacing: 0.04rem;
+    margin: 1rem;
     /* Ajoutez cela pour permettre le positionnement de ::after */
 }
 
 .navbar-links li.active a::after {
     content: "";
     position: absolute;
-    width: 30%;
+    width: 30px;
     height: 2px;
     background-color: #EDE9DE;
     bottom: -4px;
@@ -61,9 +69,11 @@
 }
 
 /* Responsivness */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
     .navbar {
         justify-content: space-between;
+        z-index: 1000;
+        /* Ajustez la valeur selon vos besoins */
     }
 
     .navbar-logo img {
@@ -89,6 +99,11 @@
         top: 120px;
         margin: 0;
         border-bottom-left-radius: 1.6rem;
+        border-bottom-right-radius: 1.6rem;
+        /*position: relative; /* Assurez-vous que z-index est pris en compte */
+        z-index: 9999;
+        /* Ajustez la valeur selon vos besoins */
+        width: 100%;
     }
 
     .navbar-links.open ul {

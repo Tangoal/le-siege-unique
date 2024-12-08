@@ -17,6 +17,17 @@
     text-align: left;
 }
 
+.section-reverse {
+    background-color: #022521;
+    color:  #EDE9DE;
+    max-width: 700px;
+    margin: auto;
+    padding: 1rem;
+    /* Largeur pour que 2 carrés tiennent par ligne (100% / 2 - marge) */
+    /* Ajoute une bordure */
+    border-radius: 8px;
+}
+
 @media only screen and (max-width: 768px) {
     .icon-text i {
         font-size: 1rem;
