@@ -9,6 +9,7 @@ import Banquettes from "./pages/Banquettes";
 import SellerieAuto from "./pages/SellerieAuto";
 import SellerieMoto from "./pages/SellerieMoto";
 import Decoration from "./pages/Decoration";
+import MentionsLegales from "./pages/MentionsLegales";
 
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
@@ -26,6 +27,7 @@ function App() {
           <Route path='/sellerie-auto' element={<SellerieAuto />}></Route>
           <Route path='/sellerie-moto' element={<SellerieMoto />}></Route>
           <Route path='/decoration' element={<Decoration />}></Route>
+          <Route path='/mentions-legales' element={<MentionsLegales />}></Route>
         </Routes>
         <Footer />
         <ScrollToTop />

@@ -18,9 +18,6 @@ export default function SellerieMotoContenu() {
             </div>
           </div>
 
-        </div>
-        <div class="section-contenu">
-
           <div class="contenu-txt">
             <div class="contenu-paragraphe">
               <h2>Nos prestations</h2>
@@ -29,8 +26,8 @@ export default function SellerieMotoContenu() {
                 <li>Confection des garnitures suivant votre style de conduite et votre gabarit</li>
                 <li>Revêtement de votre selle adapté à votre besoin et au style de votre moto</li>
                 <li>Réparation des coutures</li>
-                <li><strong>Broderie</strong></li>
-                <li><strong>Entretien et re-pigmentation des cuirs</strong></li>
+                <li>Service de broderie</li>
+                <li>Entretien et re-pigmentation des cuirs</li>
               </ul>
             </div>
           </div>

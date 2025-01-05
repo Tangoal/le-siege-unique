@@ -10,8 +10,8 @@ import car6 from ".//../../assets/img/pages/sieges/carsiege6.webp"
 
 function SiegesCaroussel() {
     return (
-        <div class="container-caroussel">
-            <div class="caroussel">
+        <div class="container-caroussel-siege">
+            <div class="caroussel-siege">
                 <img src={car1} fetchpriority="high" alt="Caroussel 1" />
                 <img src={car2} alt="Caroussel 2" />
                 <img src={car3} alt="Caroussel 3" />

@@ -12,16 +12,13 @@ export default function DecorationContenu() {
     <section id="contenu">
       <div class="section-bg">
         <div class="section-contenu">
-          <div class="contenu-img"><img src={deco1} alt="deco1"/></div>
+          <div class="contenu-img"><img src={deco1} alt="deco1" /></div>
           <div class="contenu-txt">
             <div class="contenu-paragraphe">
               <h2>VOS RIDEAUX ET VOILAGES</h2>
               <p>LE SIEGE UNIQUE vous propose ses services dans la confection sur mesure de rideaux et de voilages, offrant des solutions élégantes et personnalisées pour tous types d'intérieurs. Que ce soit pour une maison, un bureau ou des espaces commerciaux, nous nous engageons à apporter une touche unique à chaque projet.</p>
             </div>
           </div>
-
-        </div>
-        <div class="section-contenu">
 
           <div class="contenu-txt">
             <div class="contenu-paragraphe">
@@ -34,25 +31,19 @@ export default function DecorationContenu() {
               </ul>
             </div>
           </div>
-          <div class="contenu-img"><img src={deco2} alt="deco2"/></div>
+          <div class="contenu-img"><img src={deco2} alt="deco2" /></div>
 
-        </div>
-
-        <div class="section-contenu">
-          <div class="contenu-img"><img src={deco3} alt="deco3"/></div>
+          <div class="contenu-img"><img src={deco3} alt="deco3" /></div>
           <div class="contenu-txt">
             <div class="contenu-paragraphe">
-              <h2>VOTRE TEINTURE MURALE</h2>
+              <h2>Nos solutions pour VOTRE TEINTURE MURALE</h2>
               <p>LE SIEGE UNIQUE propose des tentures murales sur mesure, créant des solutions élégantes pour habiller vos murs avec style et personnalité. Que ce soit pour un intérieur résidentiel, un espace commercial ou un événement, nous ajoutons une touche unique et fonctionnelle à chaque projet.</p>
             </div>
           </div>
 
-        </div>
-        <div class="section-contenu">
-
           <div class="contenu-txt">
             <div class="contenu-paragraphe">
-              <h2>Nos prestations</h2>
+              <h2>Nos solutions pour Nos prestations</h2>
               <ul>
                 <li>Confection sur mesure</li>
                 <li>Choix de tissus variés</li>
@@ -62,10 +53,8 @@ export default function DecorationContenu() {
               </ul>
             </div>
           </div>
-          <div class="contenu-img"><img src={deco4} alt="deco4"/></div>
-
+          <div class="contenu-img"><img src={deco4} alt="deco4" /></div>
         </div>
-
 
       </div>
       <PopupTypeForm />

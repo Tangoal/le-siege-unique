@@ -6,7 +6,7 @@ function PopupTypeForm() {
     <div className='container-typeform'>
       <PopupButton id="CyBZPM1U" className="button">
         <div className='text-typeform'>  
-          J'ai un projet<i class="fa-solid fa-pen-nib"></i>
+        J'ai un projet&nbsp;&nbsp;<i class="fa-solid fa-pen-nib"></i>
         </div>
       </PopupButton>
     </div>

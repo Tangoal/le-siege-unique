@@ -33,6 +33,13 @@ p {
 
 li {
     text-align: justify;
+    
+}
+
+ul li {
+    hyphens: auto;
+    overflow-wrap: break-word; /* Assure la coupure du mot si nécessaire */
+    white-space: normal;
 }
 
 .section-bg {
@@ -58,6 +65,10 @@ li {
 
 .gallery {
     margin: 2rem auto;
+}
+
+img {
+    image-rendering: auto;
 }
 
 /* Responsivness */

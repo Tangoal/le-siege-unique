@@ -6,11 +6,10 @@ export default function ContactInfo() {
   return (
     <section id="contact-info">
       <div class="section-bg">
-        <div class="section">
-          <div class="section-contact">
+        <div class="section-contact">
             <div class="section-bordure">
               <h2>Nous contacter</h2>
-              <h3>N'hésitez pas à nous contacter pour nous faire part de vos questions, partager vos projets et envoyer des photos.</h3>
+              <div class="contact-intro"><p>N'hésitez pas à nous contacter pour nous faire part de vos questions, partager vos projets et envoyer des photos.</p></div>
               <div class="container">
 
                 <div className='contact-text'>
@@ -40,7 +39,6 @@ export default function ContactInfo() {
               </div>
               <PopupTypeForm />
             </div>
-          </div>
         </div>
       </div>
     </section>

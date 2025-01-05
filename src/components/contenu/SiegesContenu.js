@@ -10,7 +10,7 @@ export default function SiegesContenu() {
     <section id="contenu">
       <div class="section-bg">
         <div class="section-contenu">
-          <div class="contenu-img"><img src={garniture} alt="garniture"/></div>
+          <div class="contenu-img"><img src={garniture} alt="garniture" /></div>
           <div class="contenu-txt">
             <div class="contenu-paragraphe">
               <h2>Votre garniture</h2>
@@ -24,12 +24,10 @@ export default function SiegesContenu() {
             </div>
           </div>
 
-        </div>
-        <div class="section-contenu">
 
           <div class="contenu-txt">
             <div class="contenu-paragraphe">
-              <h2>Votre converture</h2>
+              <h2>Votre couverture</h2>
               <p>Votre choix rend votre projet UNIQUE, à vous de jouer&nbsp;!</p>
               <ul>
                 <li><strong>TISSU HAUT DE GAMME</strong> : Découvrez les nombreuses collections à l’atelier-showroom.</li>
@@ -38,7 +36,7 @@ export default function SiegesContenu() {
               </ul>
             </div>
           </div>
-          <div class="contenu-img"><img src={couverture} alt="couverture"/></div>
+          <div class="contenu-img"><img src={couverture} alt="couverture" /></div>
 
         </div>
 

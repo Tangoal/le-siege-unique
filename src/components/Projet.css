@@ -7,6 +7,7 @@
   justify-content: space-between;
   /* Distribution uniforme avec de l'espace entre les éléments */
   gap: 20px;
+  margin-top: 2rem;
 }
 
 .flex-item {
@@ -98,3 +99,16 @@
   border: solid 3px #022521;
 }
 
+@media (max-width: 768px) {
+  .flex-container {
+    flex-wrap: nowrap; /* Pas de wrap */
+    flex-direction: column;
+    justify-content: center; 
+    overflow-x: auto; /* Permet le défilement horizontal */
+  }
+
+  .flex-item {
+    width : 90%;
+    margin: auto;
+  }
+}
