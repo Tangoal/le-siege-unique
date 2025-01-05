@@ -1,0 +1,75 @@
+.container-caroussel {
+    width: 100%;
+    max-height: 500px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.caroussel {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    animation: defilement 60s infinite ease-in-out;
+}
+
+.caroussel img {
+    flex-shrink: 0; /* Empêche les images de rétrécir */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 100%;
+    
+}
+
+
+@media only screen and (min-width:1900px) {
+    .container-caroussel {
+        height: 500px;
+    }
+}
+
+@keyframes defilement {
+
+    0%,
+    8% {
+        /* Pause sur la première image */
+        transform: translateX(0);
+    }
+
+    16%,
+    24% {
+        /* Transition vers la deuxième image */
+        transform: translateX(-100%);
+    }
+
+    32%,
+    40% {
+        /* Transition vers la troisième image */
+        transform: translateX(-200%);
+    }
+
+    48%,
+    56% {
+        /* Transition vers la quatrième image */
+        transform: translateX(-300%);
+    }
+
+    64%,
+    72% {
+        /* Transition vers la cinquième image */
+        transform: translateX(-400%);
+    }
+
+    80%,
+    88% {
+        /* Transition vers la sixième image */
+        transform: translateX(-500%);
+    }
+
+    96%,
+    100% {
+        /* Retour et pause sur la première image */
+        transform: translateX(-600%);
+    }
+}

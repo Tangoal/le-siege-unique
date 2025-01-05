@@ -1,9 +1,13 @@
 import React from 'react'
-import GallerySieges from '../components/gallery/GallerySieges';
+import SiegesContenu from '../components/contenu/SiegesContenu';
+import SiegesCaroussel from '../components/caroussel/SiegesCaroussel'
 
 function Sieges() {
     return (
-        <GallerySieges />
+    <>
+        <SiegesCaroussel />
+        <SiegesContenu />
+    </>
     )
 }
 

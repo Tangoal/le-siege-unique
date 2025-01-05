@@ -1,7 +1,5 @@
 import React from 'react'
 import './Presentation.css'
-import Caroussel from '../components/Caroussel'
-import PopupTypeForm from './PopupTypeForm'
 
 export default function Presentation() {
   return (
@@ -15,7 +13,6 @@ export default function Presentation() {
               <p>Florian et son équipe vous invite à découvrir et apprécier le fait main, et vous accompagne dans vos projets uniques, personnalisés, et de grandes qualités.</p>
               <p>Suivez-nous sur Facebook et Instagram pour découvrir nos réalisations et nos nouveautés&nbsp;!</p>
             </div>
-            <PopupTypeForm/>
           </div>
         </div>
       </div>

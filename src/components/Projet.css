@@ -1,32 +1,100 @@
 /* Conteneur Flexbox principal */
 .flex-container {
-    display: flex;
-    /* Active le mode flexbox */
-    flex-wrap: wrap;
-    /* Permet aux enfants de s'enrouler sur plusieurs lignes */
-    justify-content: space-between;
-    /* Distribution uniforme avec de l'espace entre les éléments */
-    gap: 20px;
+  display: flex;
+  /* Active le mode flexbox */
+  flex-wrap: wrap;
+  /* Permet aux enfants de s'enrouler sur plusieurs lignes */
+  justify-content: space-between;
+  /* Distribution uniforme avec de l'espace entre les éléments */
+  gap: 20px;
 }
 
 .flex-item {
-    background-color: #022521;
-    color: #EDE9DE;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    width: 48%;
-    padding-top: 48%; /* Technique pour créer un carré */
-    border-radius: 8px;
-    font-size: 1rem;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-  }
+  background-color: #022521;
+  color: #EDE9DE;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 48%;
+  height: 150px;
+  /* Hauteur maximale fixe */
+  overflow: hidden;
 
-.flex-item > * {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-  }
+  border-radius: 8px;
+  font-size: 1rem;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.flex-item>* {
+  position: absolute;
+}
+
+.flex-item img {
+  flex-shrink: 0;
+  width: 100%;
+  height: 100%;
+  /* L'image prend toute la hauteur du conteneur */
+  object-fit: cover;
+  /* Adapte l'image sans déformation en couvrant le conteneur */
+  max-width: 100%;
+  /* S'assure que l'image ne dépasse pas la largeur */
+  max-height: 100%;
+  /* S'assure que l'image ne dépasse pas la hauteur */
+  border-radius: inherit;
+  /* Pour suivre les bords arrondis de .flex-item */
+}
+
+.flex-item a, button {
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+}
+
+.flex-item button {
+  border-width: 0px;
+  padding: 0;
+}
+
+.flex-title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(2, 37, 34, 0.8);
+  /* Fond semi-transparent */
+  color: #EDE9DE;
+  /* Couleur du texte */
+  padding: 5px 5px;
+  /* Espace autour du texte */
+  text-align: center;
+  /* Centrer le texte horizontalement */
+  font-size: 0.9rem;
+  /* Taille du texte */
+  max-width: 100%;
+  /* S'assure que l'image ne dépasse pas la largeur */
+  max-height: 100%;
+  /* S'assure que l'image ne dépasse pas la hauteur */
+  border-radius: inherit;
+  /* Pour suivre les bords arrondis de .flex-item */
+  display: flex;
+  /* Utilisation de flexbox */
+  justify-content: center;
+  /* Centrage horizontal */
+  align-items: center;
+  /* Centrage vertical */
+  cursor: pointer;
+  transition: all 0.5s ease-out;
+  font-size: 1rem;
+  border: solid 3px transparent;
+  /* Initial border transparent */
+}
+
+.flex-title:hover {
+  background: rgba(237, 233, 222, 0.8);
+  /* Fond semi-transparent */
+  color: #022521;
+  border: solid 3px #022521;
+}
+

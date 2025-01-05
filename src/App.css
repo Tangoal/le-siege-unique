@@ -31,6 +31,10 @@ p {
     hyphens: auto;
 }
 
+li {
+    text-align: justify;
+}
+
 .section-bg {
     background-color: #EDE9DE;
     color: #022521;

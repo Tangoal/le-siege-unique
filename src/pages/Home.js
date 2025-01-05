@@ -1,7 +1,7 @@
 import React from 'react'
 import Presentation from '../components/Presentation'
 import ContactInfo from '../components/ContactInfo'
-import Caroussel from '../components/Caroussel'
+import Caroussel from '../components/caroussel/Caroussel'
 import Projet from '../components/Projet'
 
 
@@ -9,7 +9,7 @@ import Projet from '../components/Projet'
 function Home() {
     return (
         <>
-            <Caroussel/>
+            <Caroussel />
             <Projet />
             <Presentation />
             <ContactInfo />

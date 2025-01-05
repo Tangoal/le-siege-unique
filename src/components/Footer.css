@@ -9,6 +9,9 @@ footer {
 
 .footer-container {
     display: flex;
+    max-width: 1400px;  /* Ajustez la valeur selon vos besoins */
+    margin: 0 auto;
+    width: 100%;
 }
 
 .footer-container>* {
