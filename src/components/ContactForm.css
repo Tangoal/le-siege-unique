@@ -1,4 +1,3 @@
-
 form div {
     display: flex;
     flex-direction: column;
@@ -43,21 +42,4 @@ textarea::placeholder {
     border-bottom: 1px solid #022521;
     line-height: 120%;
     background-color: #EDE9DE;
-}
-
-.button {
-    background-color: #022521;
-    color: #EDE9DE;
-    font-weight: bold;
-    padding: 8px 16px;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-    transition: color 1s;
-    width: 200px;
-    margin: auto;
-}
-
-.button:hover {
-    color: #ffffff;
 }
