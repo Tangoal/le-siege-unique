@@ -1,8 +1,8 @@
 import React from 'react'
 import './Contenu.css'
-import banquetteexterieur from "../.././assets/img/pages/banquettes/banquetteexterieur.webp"
-import banquettecampingcar from "../.././assets/img/pages/banquettes/banquettecampingcar.webp"
-import banquettehotel from "../.././assets/img/pages/banquettes/banquettehotel.webp"
+import banquetteexterieur from "../.././assets/img/pages/banquettes/banquetteexterieur-comp.webp"
+import banquettecampingcar from "../.././assets/img/pages/banquettes/banquettecampingcar-comp.webp"
+import banquettehotel from "../.././assets/img/pages/banquettes/banquettehotel-comp.webp"
 import PopupTypeForm from '../PopupTypeForm'
 
 export default function BanquettesContenu() {
@@ -10,7 +10,7 @@ export default function BanquettesContenu() {
     <section id="contenu">
       <div class="section-bg">
         <div class="section-contenu">
-          <div class="contenu-img"><img src={banquetteexterieur} alt="banquetteexterieur" /></div>
+          <div class="contenu-img"><img src={banquetteexterieur} loading="lazy" alt="banquetteexterieur" /></div>
           <div class="contenu-txt">
             <div class="contenu-paragraphe">
               <h2>Nos solutions pour VOS EXTERIEURS</h2>
@@ -32,9 +32,9 @@ export default function BanquettesContenu() {
               </ul>
             </div>
           </div>
-          <div class="contenu-img"><img src={banquettecampingcar} alt="banquettecampingcar" /></div>
+          <div class="contenu-img"><img src={banquettecampingcar} loading="lazy" alt="banquettecampingcar" /></div>
 
-          <div class="contenu-img"><img src={banquettehotel} alt="banquettehotel" /></div>
+          <div class="contenu-img"><img src={banquettehotel} loading="lazy" alt="banquettehotel" /></div>
           <div class="contenu-txt">
             <div class="contenu-paragraphe">
               <h2>Nos prestations pour <br /><strong>RESTAURANTS ET HÔTELLERIE</strong></h2>

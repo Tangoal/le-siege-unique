@@ -1,7 +1,7 @@
 import React from 'react'
 import './Contenu.css'
-import garniture from "../.././assets/img/pages/sieges/garniture.webp"
-import couverture from "../.././assets/img/pages/sieges/couverture.webp"
+import garniture from "../.././assets/img/pages/sieges/garniture-comp.webp"
+import couverture from "../.././assets/img/pages/sieges/couverture-comp.webp"
 import PopupTypeForm from '../.././components/PopupTypeForm'
 
 

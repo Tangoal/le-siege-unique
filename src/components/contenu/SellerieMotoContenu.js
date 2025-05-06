@@ -1,7 +1,7 @@
 import React from 'react'
 import './Contenu.css'
-import selleriemoto1 from "../.././assets/img/pages/selleriemoto/selleriemoto1.webp"
-import selleriemoto2 from "../.././assets/img/pages/selleriemoto/selleriemoto3.webp"
+import selleriemoto1 from "../.././assets/img/pages/selleriemoto/selleriemoto1-comp.webp"
+import selleriemoto2 from "../.././assets/img/pages/selleriemoto/selleriemoto3-comp.webp"
 import PopupTypeForm from '../PopupTypeForm'
 
 

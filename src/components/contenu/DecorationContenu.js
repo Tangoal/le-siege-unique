@@ -1,9 +1,9 @@
 import React from 'react'
 import './Contenu.css'
-import deco1 from "../.././assets/img/pages/decoration/deco1.webp"
-import deco2 from "../.././assets/img/pages/decoration/deco2.webp"
-import deco3 from "../.././assets/img/pages/decoration/deco3.webp"
-import deco4 from "../.././assets/img/pages/decoration/deco4.webp"
+import deco1 from "../.././assets/img/pages/decoration/deco1-comp.webp"
+import deco2 from "../.././assets/img/pages/decoration/deco2-comp.webp"
+import deco3 from "../.././assets/img/pages/decoration/deco3-comp.webp"
+import deco4 from "../.././assets/img/pages/decoration/deco4-comp.webp"
 import PopupTypeForm from '../PopupTypeForm'
 
 
