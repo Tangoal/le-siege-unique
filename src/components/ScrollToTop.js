@@ -7,7 +7,15 @@ const ScrollToTop = () => {
 
     // Automatically scrolls to top whenever pathname changes
     useEffect(() => {
-        window.scrollTo(0, 0);
+        // Attendre la fin de l'animation (0.5s de délai + 0.5s de durée)
+        const timer = setTimeout(() => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth' // Ajout d'un défilement fluide
+            });
+        }, 0); // 1000ms = délai + durée de l'animation
+
+        return () => clearTimeout(timer);
     }, [pathname]);
 }
 

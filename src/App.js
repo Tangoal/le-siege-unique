@@ -1,5 +1,6 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import React, { useState, useEffect, Suspense } from 'react';
+import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
+import { AnimatePresence, motion } from "framer-motion";
 import './App.css';
 import './ResetCSS.css';
 
@@ -14,25 +15,81 @@ import MentionsLegales from "./pages/MentionsLegales";
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import ScrollToTop from './components/ScrollToTop'
+import LoadingScreen from './components/LoadingScreen'
 
-function App() {
+// Composant pour gérer les animations de page
+const AnimatedRoutes = () => {
+  const location = useLocation();
+
   return (
-    <>
-      <Router>
-        <Navbar />
-        <Routes>
-          <Route path='/' element={<Home />}></Route>
-          <Route path='/sieges' element={<Sieges />}></Route>
-          <Route path='/banquettes' element={<Banquettes />}></Route>
-          <Route path='/sellerie-auto' element={<SellerieAuto />}></Route>
-          <Route path='/sellerie-moto' element={<SellerieMoto />}></Route>
-          <Route path='/decoration' element={<Decoration />}></Route>
-          <Route path='/mentions-legales' element={<MentionsLegales />}></Route>
+    <AnimatePresence mode="wait">
+      <motion.div
+        key={location.pathname}
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.5, delay: 0.5 }}
+      >
+        <Routes location={location}>
+          <Route path='/' element={<Home />} />
+          <Route path='/sieges' element={<Sieges />} />
+          <Route path='/banquettes' element={<Banquettes />} />
+          <Route path='/sellerie-auto' element={<SellerieAuto />} />
+          <Route path='/sellerie-moto' element={<SellerieMoto />} />
+          <Route path='/decoration' element={<Decoration />} />
+          <Route path='/mentions-legales' element={<MentionsLegales />} />
         </Routes>
         <Footer />
-        <ScrollToTop />
-      </Router >
+      </motion.div>
+    </AnimatePresence>
+  );
+};
 
+function App() {
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    // Attendre que toutes les ressources soient chargées
+    const waitForResources = async () => {
+      try {
+        // Attendre le chargement complet de la page
+        await new Promise(resolve => {
+          if (document.readyState === 'complete') {
+            resolve();
+          } else {
+            window.addEventListener('load', resolve);
+          }
+        });
+
+        // Attendre le temps minimum d'animation
+        await new Promise(resolve => setTimeout(resolve, 2000));
+
+        // Masquer l'écran de chargement
+        setIsLoading(false);
+      } catch (error) {
+        console.error('Erreur lors du chargement:', error);
+        setIsLoading(false);
+      }
+    };
+
+    waitForResources();
+  }, []);
+
+  return (
+    <>
+      <LoadingScreen isLoading={isLoading} />
+      <div style={{
+        visibility: isLoading ? 'hidden' : 'visible',
+        opacity: isLoading ? 0 : 1,
+        transition: 'opacity 0.5s ease-in-out'
+      }}>
+        <Router>
+          <Suspense fallback={<LoadingScreen isLoading={true} />}>
+            <Navbar />
+            <AnimatedRoutes />
+            <ScrollToTop />
+          </Suspense>
+        </Router>
+      </div>
     </>
   );
 }
