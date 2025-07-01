@@ -1,0 +1,73 @@
+.container-caroussel-sellerieauto {
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.caroussel-sellerieauto {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    animation: defilement 40s infinite ease-in-out;
+}
+
+.caroussel-sellerieauto img {
+    flex-shrink: 0;
+    /* Empêche les images de rétrécir */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+@media only screen and (max-width: 767px) {
+    .container-caroussel-sellerieauto {
+        height: 130px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .container-caroussel-sellerieauto {
+        height: 200px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+    .container-caroussel-sellerieauto {
+        height: 350px;
+    }
+}
+
+@keyframes defilement {
+
+    0%,
+    11% {
+        /* Pause sur la première image */
+        transform: translateX(0);
+    }
+
+    22%,
+    33% {
+        /* Transition vers la deuxième image */
+        transform: translateX(-100%);
+    }
+
+    44%,
+    55% {
+        /* Transition vers la troisième image */
+        transform: translateX(-200%);
+    }
+
+    66%,
+    77% {
+        /* Transition vers la quatrième image */
+        transform: translateX(-300%);
+    }
+    88%,
+    100% {
+        /* Retour et pause sur la première image */
+        transform: translateX(-400%);
+    }
+}
