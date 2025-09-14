@@ -43,7 +43,7 @@ export default function DecorationContenu() {
 
           <div class="contenu-txt">
             <div class="contenu-paragraphe">
-              <h2>Nos solutions pour Nos prestations</h2>
+              <h2>Nos prestations</h2>
               <ul>
                 <li>Confection sur mesure</li>
                 <li>Choix de tissus variés</li>
