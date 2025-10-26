@@ -20,7 +20,7 @@ export default function ContactInfo() {
                     </div>
                     <div class="icon-text">
                       <i class="fa-solid fa-location-dot"></i>
-                      <p> 168 rue Moulin Gros, 85600 MONTAIGU</p>
+                      <p>Rue Georges Clémenceau, 85260 L'HERBERGEMENT</p>
                     </div>
                     <div class="icon-text">
                       <i class="fa-solid fa-clock"></i>
